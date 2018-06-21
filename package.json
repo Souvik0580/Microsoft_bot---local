@@ -1,0 +1,22 @@
+{
+  "name": "watson",
+  "version": "1.0.0",
+  "description": "chatbot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Souvik",
+  "license": "ISC",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "express": "^4.16.2",
+    "node-excel-to-json": "0.0.3",
+    "socket.io": "^2.0.4",
+    "twilio": "^3.6.6",
+    "watson-developer-cloud": "^2.39.0",
+    "xls-to-json-lc": "^0.3.4",
+    "xlsx-to-json": "^0.3.0",
+    "xlsx-to-json-lc": "^0.5.0"
+  }
+}
