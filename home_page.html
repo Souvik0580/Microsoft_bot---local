@@ -3,28 +3,41 @@
 <head>
   
   <title>My Home</title>
+  <link rel="stylesheet" type="text/css" href="web/main.css">
   
-  <style>
-    .block {
-      width: 200px;
-      height: 200px;
-      background-color: blue;
-      border: 2px solid red;
-      text-align: center;
-      vertical-align: middle;
-    }
-    
-    
-    #block_10 { float: left}
-    #block_12 { float: left}
-    #block_bachalor { clear: both; float: left}
-    #block_master { float: left}
-  </style>
 </head>
 <body>
-  <div id="block_10" class="block">10th</div>
-  <div id="block_12" class="block">12th</div>
-  <div id="block_bachalor" class="block">Graduation</div>
-  <div id="block_master" class="block">Master</div>
+  <div>
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a class="active" href="#home">Education</a></li>
+      <li><a class="active" href="#home">Career</a></li>
+      <li><a class="active" href="#home">Forum</a></li>
+      <li><a class="active" href="#home">About</a></li>
+      <li><a class="active" href="#home">Contact</a></li>
+    </ul>
+  </div>
+  <div class="block_tiles">
+    <div id="block_10" class="block"><a class="tile_link" href="#home">10th</a></div>
+    <div id="block_12" class="block"><a class="tile_link" href="#home">12th</a></div>
+    <div id="block_bachalor" class="block"><a class="tile_link" href="#home">Graduation</a></div>
+    <div id="block_master" class="block"><a class="tile_link" href="#home">Master</a></div>
+  </div>
+  
+  <footer>
+    <div class="foot_pad"></div>
+    <div class="foot">
+      <ul>
+        <li><a class="active" href="#home">@ Copyright</a></li>
+        <li><a class="active" href="#home">Term of Use</a></li>
+        <li><a class="active" href="#home">FAQ</a></li>
+        <li><a class="active" href="#home">Blog</a></li>
+        <li><a class="active" href="#home">About</a></li>
+        <li><a class="active" href="#home">Contact</a></li>
+      </ul>
+    </div>
+    
+  </footer>
+  
 </body>
 </html>
